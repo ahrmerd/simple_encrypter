@@ -4,7 +4,7 @@ import 'dart:io';
 
 import 'package:simple_encrypter/xor_encrypt.dart';
 
-class SimpleEncryptor {
+class SimpleEncrypter {
   static Future<void> encrypt(File file, String key,
       [bool replace = true]) async {
     final filename = file.path.split(Platform.pathSeparator).last;
